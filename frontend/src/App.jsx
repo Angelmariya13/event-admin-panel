@@ -10,7 +10,7 @@ import {
 import axios from "axios";
 import "./App.css";
 
-const API = "http://localhost:5000/api/events";
+const API = "https://event-admin-panel-i4ya.onrender.com/api/events"; 
 
 function Dashboard() {
   const [events, setEvents] = useState([]);
